@@ -1,6 +1,14 @@
-# FarmersOnly
-A place to store our code for GMU DAEN 690
 
-Our task involves using GIS data to identify where foreign entities own foreign land. 
-The code here is designed to help decode the AFIDA data recieved through a FOIA request to locate specific parcels of land.
-Ideally theis process can be generalized to be used in various locations.
+# GMU DAEN 690 Project
+##  Team FarmersOnly
+
+Problem Statement:
+> There does not exist a single or unified database/visualization tool that allows citizens, lawmakers or decision makers to easily see which agricultural lands are foreign owned. Using the dataset given, we will connect federal standardized agricultural plot IDs with longitude, latitude and street address.
+
+For the Spring 2023 semester, our team was tasked with analyzing AFIDA data to better understand how foreign agricultural land ownership might relate to important infrastructure. This project will have 2 phases:
+* **Phase 1**: the data will need to be linked back to state/county/local records provide information theat can locat the plot of land in question
+* **Phase 2**: with the foreaign land identitified, anayze the proximity of the land to crititical infrastructure (which will need to be further defined)
+
+This will require pulling in data from local governements to allow us to create a process to link the  Federal government IDs to more easily recognizable markers, such as Long/Lat coordinates or street addresses.
+
+Currently, the expectations is to conduct the analysis in Python.
